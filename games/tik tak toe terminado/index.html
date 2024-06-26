@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" async defer ></script>
+    <title>Document</title>
+</head>
+<body>
+
+    <!--tabla de juego-->
+
+    <div id="tiktak">
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="results"></div>
+    </div>
+
+    <!-- Tabla de puntuación -->
+    <table>
+        
+        <caption id="font">Puntuación</caption>
+        <thead>
+            <tr>
+                <th id="X0">Jugador X</th>
+                <th id="oX">Jugador O</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td id="scoreX">0</td>
+                <td id="scoreO">0</td>
+            </tr>
+        </tbody>
+    
+    </table>
+
+    <!-- Botón de reset -->
+    <button id="resetButton">Reset</button>
+
+    <!--Sonido -->
+    <audio id="winSound" src="./soundFX/winSound.mp3"></audio>
+</body>
+
+</html>

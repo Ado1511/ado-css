@@ -1,0 +1,49 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+body{
+    background-color: rgb(47, 0, 46);
+    font-family: serif;
+    color: wheat;
+}
+main{
+    width: 730px;
+    margin: 100px auto 50px;
+    display: flex;
+    align-items: center;
+}
+section{
+    background-color:rgb(255, 255, 255, 0.2);
+    padding: 0 10px 10px 10px;
+    border-radius: 8px;
+}
+h1{
+    text-align: center;
+}
+button{
+    height: 100px;
+    width: 100px;
+    font-size: 40px;
+    color: black;
+}
+button:hover{
+    cursor:pointer;
+}
+section2{
+    background-color:rgb(255, 255, 255, 0.2);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    width: 250px;
+    height: 400px;
+    padding: 0 20px;
+}
+.estadisticas{
+    border: solid 1px wheat;
+    height: 105px;
+    border-radius: 8px;
+    padding: 8px 20px;
+    box-sizing: border-box;
+}

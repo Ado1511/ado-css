@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+h1 {
+  color: black;
+  font-size: 7rem;
+  position: absolute;
+  top: 30px;
+  left: 70px;
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+}
+
+body {
+  background-color: salmon;
+}
+
+form {
+  width: 400px;
+  background-color: palegoldenrod;
+  text-align: center;
+  border: 1px solid black;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+  height: 450px;
+  padding: 100px;
+  margin-left: 60px;
+  margin-top: 100px;
+}
+form input {
+  width: 200px;
+  height: 25px;
+  font-size: 1.5rem;
+  color: black;
+}
+form .patita {
+  width: 200px;
+  height: 200px;
+  font-size: 1.5rem;
+  color: white;
+  top: 150px;
+}
+form .pati {
+  color: antiquewhite;
+  font-size: 1.5rem;
+  position: absolute;
+  top: 505px;
+  left: 235px;
+}
+
+img {
+  margin-top: -390px;
+  margin-left: 600px;
+  width: 1200px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+  background-color: palegoldenrod;
+  border-top-left-radius: 40em 40em;
+}
+
+@media only screen and (max-width: 800px) {
+  img {
+    /* visibility: hidden; */
+    /* background-color: none; */
+    background: none;
+    box-shadow: none;
+    border-top-left-radius: 0%;
+    height: 320px;
+    width: 450px;
+    position: absolute;
+    margin-left: 250px;
+    margin-top: -200px;
+  }
+  h1 {
+    font-size: 3rem;
+    text-align: justify;
+    position: absolute;
+    margin-left: 40px;
+    display: block;
+  }
+}/*# sourceMappingURL=style.css.map */

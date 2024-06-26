@@ -1,0 +1,161 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.img>img {
+    width: 100%;
+    height: 350px;
+    position: relative;
+}
+
+h1 {
+    direction: rtl;
+    color: #ffff;
+    font: normal normal 900 24px/53px Heebo;
+}
+
+p {
+    direction: rtl;
+    color: #ffff;
+    text-align: right;
+    font: normal normal normal 13px/29px Heebo;
+}
+
+form {
+    direction: rtl;
+    width: 350px;
+    height: 450px;
+    background-color: #1A1A1AD4;
+    position: relative;
+    bottom: 9rem;
+    left: 50rem;
+    color: #ffff;
+    font: normal normal normal 12px/19px Heebo;
+    position: fixed;
+}
+
+form>.cuadro {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    margin-top: -170px;
+    margin-right: -155px;
+
+
+
+}
+
+.info1 {
+    direction: rtl;
+    position: fixed;
+    right: 220px;
+    bottom: 320px;
+    flex-direction: column;
+    display: flex;
+
+}
+
+.info2 {
+    direction: rtl;
+    position: fixed;
+    right: 220px;
+    bottom: 370px;
+    flex-direction: column;
+    display: flex;
+
+}
+
+.info3 {
+    display: block;
+
+}
+
+.bor {
+    border: 1px solid #D31C75;
+    width: 250px;
+    height: 30px;
+}
+
+input[type="submit"] {
+    background-color: #D31C75;
+    width: 100px;
+    height: 30px;
+    border: 0;
+    font: normal bold normal 14px/26px Assistant;
+    color: #ffff;
+    top: 145px;
+    right: 15px;
+    position: relative;
+}
+
+/* Estilos para pantallas más pequeñas que 800px */
+@media only screen and (max-width: 800px) {
+    .img>img {
+        width: 100%;
+        height: 40vh;
+        display: block;
+
+    }
+
+    h1 {
+        width: 200px;
+        padding: 20px;
+        font-size: 25px;
+        line-height: 40px;
+        margin: 0 auto;
+        display: flex;
+    }
+
+    p {
+        width: 250px;
+        font-size: 15px;
+        line-height: 20px;
+        display: flex;
+        margin-right: 30px;
+    }
+
+    form {
+        width: 90%;
+        height: 400px;
+        bottom: 2rem;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        position: block;
+
+    }
+
+    form>.cuadro {
+        top: initial;
+        right: initial;
+        margin: 0 auto;
+        position: block;
+        gap: 5px;
+    }
+
+    .info1,
+    .info2 {
+        position: static;
+        margin: 0 auto;
+        width: 250px;
+        gap: 10px;
+
+    }
+
+
+
+    input[type="submit"] {
+        width: 100px;
+        height: 30px;
+        border: 0;
+        color: #ffff;
+        top: 50%;
+        right: 15px;
+        position: relative;
+
+    }
+}

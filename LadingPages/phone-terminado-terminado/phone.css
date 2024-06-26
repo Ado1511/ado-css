@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.icon .fa-whatsapp {
+    position: relative;
+    left: 0.7rem;
+    top: 0.3rem;
+}
+
+.icon {
+    background-color: #FDBD03;
+    opacity: 1;
+    height: 60px;
+    width: 60px;
+    border-radius: 80px;
+    margin-top: 2rem;
+    margin: 2rem;
+}
+
+.color {
+    background: #FDBD03;
+    height: 1.3vh;
+    width: 17vw;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+.color2 {
+    background: #FDBD03;
+    height: 1.2vh;
+    width: 50vw;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.img-container {
+    width: 40vw;
+}
+
+img {
+    width: 55%;
+    margin-left: 8rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 70vh;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: right; 
+    direction: rtl; 
+    margin: 2rem auto; 
+    gap: 1rem;
+}
+
+.content>h1 {
+    font: normal normal 900 2.5rem Heebo;
+    color: #FDBD03;
+}
+
+.content>p {
+    font: normal normal normal 0.9rem Heebo;
+    color: #020253;
+}
+
+label {
+    font: normal normal bold 0.9rem Heebo;
+    color: #2C2C2C;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    background: #E5EEFF;
+    border: none;
+    border-bottom: 3px solid #FDBD03;
+    width: calc(100% - 40px); 
+    height: 1.8rem;
+    padding: 5px 20px; 
+}
+
+textarea {
+    resize: none;
+    height: 5rem;
+}
+
+input[type="submit"] {
+    font: normal normal bold 0.8rem Heebo;
+    letter-spacing: 0.33px;
+    color: #000000;
+    background: #FDBD03;
+    width: calc(100% - 40px); 
+    margin-top: 1rem;
+    padding: 0.3rem 20px; 
+    border: 0;
+}
+
+.smaller-form {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+    width: 500px; 
+}
+
+form {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.icon-container {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 2rem;
+    gap: 1.5rem;
+    margin-left: 20px;
+}
+
+.icon2,
+.icon3,
+.icon4,
+.icon5 {
+    background-color: #FDBD03;
+    opacity: 1;
+    border-radius: 80px;
+    height: 42px;
+    width: 42px;
+    position: relative;
+    left: 1.2rem;
+    bottom: 0.2rem;
+}
+
+.icon-container .icon2,
+.icon-container .icon3,
+.icon-container .icon4,
+.icon-container .icon5 {
+    font-size: 25px;
+    padding-inline: 10px;
+    padding-top: 6px;
+}
+
+/* Media queries */
+@media  (max-width: 800px) {
+    .content {
+        margin: 2rem auto; 
+    }
+
+    form {
+        width: 90%; 
+    }
+
+    .img-container {
+        margin: 1rem auto; 
+    }
+
+    textarea {
+        width: 100%; 
+    }
+
+    input[type="submit"] {
+        width: 100%; 
+    }
+
+    .icon-container {
+        margin-top: 1rem; 
+    }
+}

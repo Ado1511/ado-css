@@ -1,0 +1,371 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #212529;
+}
+
+/* Carucel fotos proyecto!! */
+
+.section-padding {
+    padding: 70px 0;
+}
+
+.carousel-item {
+    height: 80vh;
+    min-height: 300px;
+}
+
+.carousel-caption {
+    bottom: 200px;
+    z-index: 2;
+}
+
+.carousel-caption {
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+}
+
+.carousel-caption p {
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+}
+
+.carousel-inner::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgb(0, 30, 82, 0.30);
+    z-index: 1;
+}
+.carousel-inner{
+margin-bottom: 50px;
+}
+
+/* carrusel juegos */
+
+
+.carousel-game {
+    height: 80vh;
+    min-height: 300px;
+}
+
+.carousel-caption2 {
+    bottom: 200px;
+    z-index: 2;
+}
+
+.carousel-caption2 {
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+}
+
+.carousel-caption2 p {
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+}
+
+.carousel-game::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgb(0, 30, 82, 0.30);
+    z-index: 1;
+}
+.carousel-game{
+margin-bottom: 50px;
+padding: 500px;
+height: 300px;
+width: 600px;
+
+}
+
+/* BARRA DE NAVEGACION!  */
+
+.navbar-nav a {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.navbar-dark .navbar-brand {
+    color: #ffff;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover {
+    color: #000;
+}
+
+.w100 {
+    height: 100vh;
+}
+
+.navbar-toggler {
+    padding: 1px 5px;
+    font-size: 18px;
+    line-height: 0.3;
+}
+
+/* Contact */
+
+.Contact {
+    margin: 0 100px 0 100px;
+}
+
+.social2 {
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+    padding-left: 490px;
+}
+
+.social3 {
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+    padding-left: 490px;
+
+}
+
+.log2 {
+    width: 100px;
+    height: 300px;
+}
+
+/* portafolio */
+
+.log-cont {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.log {
+    width: 50px;
+    height: 60px;
+    margin: 0 10px
+}
+
+.portafolioP {
+    text-align: center;
+    padding-bottom: 25px;
+    margin: 50px;
+}
+
+.card-body {
+    margin: 0 50px 0 50px;
+    padding-bottom: 55px;
+    text-align: center;
+}
+
+.imgp {
+    width: 100%;
+    height: 100%;
+}
+
+
+@media(max-widht: 800px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .carousel-item {
+        height: 50vh;
+    }
+
+    .w-100 {
+        height: 70vh;
+    }
+
+    .carousel-caption {
+        bottom: 100px;
+    }
+
+    .carousel-caption h5 {
+        font-size: 17px;
+    }
+
+    .carousel-caption a {
+        padding: 10px 15px;
+        font-size: 15px;
+    }
+
+    .carousel-caption p {
+        width: 100%;
+        line-height: 1.5;
+        font-size: 12px;
+    }
+
+    .about-text {
+        padding-top: 30px;
+    }
+
+    .section-padding {
+        padding: 50px 0;
+    }
+
+    .card-body {
+        margin: 0;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+
+    .imgp {
+        width: 100%;
+        height: 100%;
+        margin: 0 0 0 50px;
+    }
+
+    .portafolioP {
+        margin: 0 5%;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+
+}
+
+@media (min-width: 1000px) {
+    /* Carucel fotos proyecto!! */
+
+    .section-padding {
+        padding: 70px 0;
+    }
+
+    .carousel-item {
+        height: 80vh;
+        min-height: 300px;
+    }
+
+    .carousel-caption {
+        bottom: 200px;
+        z-index: 2;
+    }
+
+    .carousel-caption {
+        font-size: 45px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        margin-top: 25px;
+    }
+
+    .carousel-caption p {
+        width: 60%;
+        margin: auto;
+        font-size: 18px;
+        line-height: 1.9;
+    }
+
+    .carousel-inner::before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: 1;
+    }
+
+    /* BARRA DE NAVEGACION!  */
+
+    .navbar-nav a {
+        font-size: 15px;
+        text-transform: uppercase;
+        font-weight: 500;
+    }
+
+    .navbar-dark .navbar-brand {
+        text-transform: uppercase;
+        font-weight: bold;
+        letter-spacing: 2px;
+    }
+
+
+    .w100 {
+        height: 100vh;
+    }
+
+    .navbar-toggler {
+        padding: 1px 5px;
+        font-size: 18px;
+        line-height: 0.3;
+    }
+
+    /* Contact */
+
+    .Contact {
+        margin: 0 100px 0 100px;
+    }
+
+    .social2 {
+        margin: 0 auto;
+        display: flex;
+        gap: 20px;
+        padding-left: 490px;
+    }
+
+    .social3 {
+        margin: 0 auto;
+        display: flex;
+        gap: 20px;
+        padding-left: 490px;
+
+    }
+
+    .log2 {
+        width: 100px;
+        height: 300px;
+    }
+
+    /* portafolio */
+
+    .log-cont {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+
+    .log {
+        width: 50px;
+        height: 60px;
+        margin: 0 10px
+    }
+
+    .portafolioP {
+        text-align: center;
+        padding-bottom: 25px;
+        margin: 50px;
+    }
+
+    .card-body {
+        margin: 0 50px 0 50px;
+        padding-bottom: 55px;
+        text-align: center;
+    }
+
+    .imgp {
+        width: 100%;
+        height: 100%;
+    }
+}

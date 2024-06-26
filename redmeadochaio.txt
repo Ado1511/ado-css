@@ -1,0 +1,57 @@
+Sure, here's a longer version of the README in English:
+
+---
+
+# Ado Chaio's Portfolio
+
+Welcome to Ado Chaio's online portfolio! This website is a platform designed to showcase the work and skills of Ado Chaio, a junior designer and fullstack developer. This README provides an overview of the project as well as instructions on how to install and use the portfolio locally.
+
+## Table of Contents
+
+- [Description](#description)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contribution](#contribution)
+- [License](#license)
+
+## Description
+
+Ado Chaio's portfolio is a web application designed to display his creative work and technical skills. It's divided into several sections including:
+
+- **Home:** A brief introduction to Ado and navigation links to other sections of the site.
+- **About:** Detailed information about Ado, including his background, experience, skills, and goals.
+- **Projects:** A gallery of Ado's featured projects, presented in an interactive carousel with links for more details.
+- **Contact:** A contact form allowing visitors to send messages directly to Ado for inquiries, collaborations, or any other questions.
+
+## Features
+
+- **Responsive Design:** The website utilizes Bootstrap to ensure a consistent user experience across a wide range of devices and screen sizes.
+- **Project Gallery:** Projects are showcased attractively in an interactive carousel, with brief descriptions and links for more details.
+- **Contact Form:** Visitors can easily get in touch with Ado through the integrated contact form on the site.
+
+## Installation
+
+To run this project locally, follow these steps:
+
+1. Clone this repository to your local machine using the `git clone` command.
+2. Open the project folder in your preferred code editor.
+3. Open the `index.html` file in your web browser.
+
+## Usage
+
+- Navigate through the different sections of the site using the navigation links at the top of the page.
+- Explore the projects by clicking on the "See More" buttons in the project carousel.
+- Use the contact form to send direct messages to Ado for inquiries or feedback.
+
+## Contribution
+
+Contributions are welcome! If you have suggestions for improvements, bug fixes, or new features you'd like to add, feel free to open an issue or submit a pull request to the repository.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE), which means you are free to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the software, but with limitations and responsibilities.
+
+---
+
+This README provides a detailed overview of the project, including its main features, installation and usage instructions, information on how to contribute, and the terms of the license. You can further customize it according to your specific needs or add more sections if desired. I hope you find it helpful!

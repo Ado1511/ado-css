@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@900&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@900&family=Satisfy&family=Varela+Round&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* Fondo */
+#grad1 {
+    height: 100vh;
+    background-image: linear-gradient(#281EFF, #2DFF8C);
+    overflow: hidden;
+
+}
+
+/* titulo y parafo */
+h1 {
+    color: white;
+    font: normal normal normal 100px/231px Satisfy;
+    position: relative;
+    left: 450px;
+    top: 60px;
+}
+
+h6 {
+    color: white;
+    font: normal normal normal 18px/38px Varela Round;
+    text-align: center;
+    direction: rtl;
+}
+
+p {
+    color: white;
+    font: normal normal normal 9px/38px Varela Round;
+    direction: rtl;
+    position: relative;
+    right: 350px;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* formulario */
+.form {
+    font: normal normal normal 9px/20px Varela Round;
+    color: #F9F9F9;
+    direction: ltr;
+    position: relative;
+    left: 100px;
+    top: 80px;
+
+}
+
+.borde {
+    background-color: #f9f9f969;
+    border: #F9F9F9 solid 1px;
+    height: 4vh;
+    width: 20vw;
+}
+
+.arriba {
+    position: inherit;
+    top: -23px;
+    left: 274px;
+}
+
+/* boton */
+.boton {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: solid #FFFFFF 1px;
+    height: 4vh;
+    width: 9vw;
+    position: relative;
+    right: 590px;
+    top: 80px;
+    text-align: center;
+    border: #F9F9F9 solid 1px;
+    color: #281EFF;
+}
+
+/* todo */
+
+.all {
+    position: relative;
+    top: 70px;
+
+
+}
+
+/* Estilos para pantallas de 800px o menos */
+@media only screen and (max-width: 800px) {
+    h1 {
+        font-size: 60px;
+        line-height: 80px;
+        left: 0;
+        text-align: center;
+        top: 20px;
+
+    }
+
+    h6 {
+        font-size: 15px;
+        text-align: center;
+        direction: ltr;
+        padding: 45px;
+    }
+
+    p {
+        font-size: 13px;
+        text-align: center;
+        direction: ltr;
+        position: static;
+        right: 0;
+        padding: 10px;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .form {
+        width: 80%;
+        margin: 20px auto;
+        position: static;
+        left: 0;
+        top: 0;
+    }
+
+    .borde {
+        width: 100%;
+    }
+
+    .arriba {
+        left: 0;
+        top: -20px;
+        text-align: center;
+    }
+
+    .boton {
+        width: 80%;
+        margin-top: 20px;
+        position: static;
+        right: 0;
+        top: 0;
+        text-align: center;
+        border: #FFFFFF 1px solid;
+        color: #281EFF;
+    }
+
+    .all {
+        top: 20px;
+        text-align: center;
+        position: static;
+    }
+}
