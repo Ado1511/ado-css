@@ -177,12 +177,14 @@ body {
 width: 409px;
 height: 240px;
 }
+
 .gamesT {
     font-size: 3rem;
     color: aliceblue;
     text-align: center;
     padding: 20px;
 }
+
 
 @media (max-width: 800px) {
     .navbar-nav {
