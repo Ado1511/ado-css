@@ -122,7 +122,7 @@ body {
 /* Contact */
 
 .Contact {
-    margin: 0 100px 0 100px;
+    margin: px0 100px 0 100px;
 }
 
 .social  {
@@ -137,6 +137,11 @@ body {
     height: 300px;
     
 }
+
+#log3{
+    margin:0 0 0 80px;
+}
+
 
 
 /* portafolio */
@@ -323,6 +328,10 @@ height: 240px;
     .log2 {
         width: 100px;
         height: 300px;
+    }
+
+    #log3{
+        align-items: center;
     }
 
     /* portafolio */
