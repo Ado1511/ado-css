@@ -75,7 +75,7 @@ function destapar(id) {
             if (aciertos == 8) {
                 clearInterval(rTime);
                 showAciertos.innerHTML = `Aciertos: ${aciertos} ¡You won!`;
-                showTime.innerHTML = `Fantástic, ¡You made it ${timeInicial - timer} segundos!`;
+                showTime.innerHTML = `Fantástic, ¡You made it ${timeInicial - timer} seconds!`;
                 showMov.innerHTML = `Movimientos: ${mov} ¡You rock!`;
             }
         } else {
