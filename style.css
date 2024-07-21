@@ -8,6 +8,26 @@ body {
     background-color: #212529;
 }
 
+#logmid{
+    display: flex;
+    margin-left: 600px;
+}
+
+#btnm{
+    margin: 0 0 0 620px;
+    
+}
+
+.midle{
+    height: 85vh;
+    width: 90vw;
+    padding: 0 0 10px 20px;
+    margin: 20px 0  0 50px;
+    margin-left: 70px;
+}
+
+
+
 /* Carrusel fotos proyecto!! */
 
 .section-padding {
@@ -118,6 +138,8 @@ body {
     font-size: 18px;
     line-height: 0.3;
 }
+
+
 
 /* Contact */
 
