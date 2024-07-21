@@ -303,7 +303,7 @@ height: 240px;
     }
 
     .w100 {
-        height: 100vh;
+        height: 100%;
     }
 
     .navbar-toggler {
