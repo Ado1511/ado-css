@@ -273,20 +273,20 @@ height: 240px;
 /* midle*/
 #logmid{
     display: flex;
-    margin-left: 200px;
+    margin-left: 100px;
 }
 
 #btnm{
-    margin: -10px -20px 100px 150px;
+    margin: 0px 0px 0px 60px;
     
 }
 
 .midle{
-    height: 45vh;
+    height: 40vh;
     width: 80vw;
-    padding: 0 0 0px 0px;
-    margin: 30px -100px -50px 0;
-    margin-left: 70px;
+    padding: 0 0 20px 0px;
+    margin: 30px 20px 0px 70px;
+    margin-left: 45px;
 }
 
 
@@ -412,4 +412,6 @@ height: 240px;
         width: 100%;
         height: 100%;
     }
+
+
 }
